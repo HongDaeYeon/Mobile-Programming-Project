@@ -1,7 +1,5 @@
 package com.example.mobileprogrammingproject;
-
 import java.util.List;
-
 public class WeatherResponse {
 
     private List<Weather> weather;
@@ -10,15 +8,12 @@ public class WeatherResponse {
     public List<Weather> getWeather() {
         return weather;
     }
-
     public void setWeather(List<Weather> weather) {
         this.weather = weather;
     }
-
     public Main getMain() {
         return main;
     }
-
     public void setMain(Main main) {
         this.main = main;
     }
